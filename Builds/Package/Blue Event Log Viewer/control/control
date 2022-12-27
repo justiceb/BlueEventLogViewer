@@ -1,0 +1,14 @@
+Architecture: windows_x64
+Built-Using: nipkg
+Description: Front end for *.lvelog file format
+  Install viewer app and registry key for filename association
+Homepage: https://github.com/justiceb/BlueEventLogViewer
+Maintainer: Blue Origin <brent.o.justice@gmail.com>
+Package: blue-event-log-viewer
+Section: Application Software
+Version: 2.0.2.15
+XB-DisplayName: Blue Event Log Viewer
+XB-Plugin: file
+XB-StoreProduct: yes
+XB-UserVisible: yes
+XB-VisibleForRuntimeDeployment: yes

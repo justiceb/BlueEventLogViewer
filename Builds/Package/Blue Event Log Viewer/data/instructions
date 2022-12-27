@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<instructions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <shortcuts />
+  <customExecutes>
+    <customExecute root="System_64" exeName="cmd.exe" arguments="/c regedit /s %NIPkgMgrTempUnique%\blueeventlogger_install.reg" step="install" schedule="postall" wait="y" ignoreErrors="n" hideConsoleWindow="n" />
+    <customExecute root="System_64" exeName="ie4uinit.exe" arguments="-show" step="install" schedule="postall" wait="y" ignoreErrors="n" hideConsoleWindow="n" />
+    <customExecute root="System_64" exeName="cmd.exe" arguments="/c regedit /s %NIPkgMgrTempUnique%\blueeventlogger_uninstall.reg" step="uninstall" schedule="postall" wait="y" ignoreErrors="n" hideConsoleWindow="n" />
+    <customExecute root="System_64" exeName="ie4uinit.exe" arguments="-show" step="uninstall" schedule="postall" wait="y" ignoreErrors="n" hideConsoleWindow="n" />
+  </customExecutes>
+</instructions>
