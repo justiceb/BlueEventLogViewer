@@ -184,7 +184,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7388B616-6E7C-4B55-9A2C-391ABEDD5172}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Blue Event Log Viewer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Application/NI_AB_PROJECTNAME.exe</Property>

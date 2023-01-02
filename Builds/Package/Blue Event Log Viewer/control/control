@@ -1,12 +1,13 @@
 Architecture: windows_x64
 Built-Using: nipkg
+Depends: ni-labview-2020-runtime-engine (=20.1.1.49157-0+f5)
 Description: Front end for *.lvelog file format
   Install viewer app and registry key for filename association
 Homepage: https://github.com/justiceb/BlueEventLogViewer
 Maintainer: Blue Origin <brent.o.justice@gmail.com>
 Package: blue-event-log-viewer
 Section: Application Software
-Version: 2.0.2.15
+Version: 2.0.2.16
 XB-DisplayName: Blue Event Log Viewer
 XB-Plugin: file
 XB-StoreProduct: yes
